@@ -1,0 +1,126 @@
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  #nbr{
+	  background-color:black;
+	 
+  }
+  #menu{
+	  color:lightgreen;
+}
+#menu:hover{
+	color:black;
+	background-color:lightgreen;
+	border-radius:50%;
+	transform: rotate(10deg);
+}
+ #lgoname{
+	  color: lightblue;
+ }
+
+ #lgoname:hover{
+	 text-shadow: 2px 2px red;
+ }
+  
+#things{
+	text-align:center;
+	padding:5px;
+	background-color:black;
+	color:lightblue;
+}
+#things:hover{
+	transform: scale(.5,.5);
+}
+#cimg{
+	border-radius: 50%;
+}
+#cr{
+	top:0;
+}
+#cr h1{
+	font-size:70px;
+	color:lightgreen;
+	text-align:left;
+	animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+#cr p{
+	text-align:left;
+	font-size:20px;
+}
+#cr h1:hover{
+	text-shadow: 0 0 3px #FF0000;
+}
+#ch :hover{
+	transform:scale(1.1);
+}
+
+#ch {
+	background-color:black;	
+}
+
+#exp{
+	background-color:black;
+}
+#card{
+	background-color:black;
+	
+}
+body{
+	background-color:black;
+}
+#fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+#fa {
+  background: #55ACEE;
+  color: white;
+}
+#go {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+#go {
+   background: #dd4b39;
+  color: white;
+}
+#in {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 40%;
+}
+#in {
+    background: #125688;
+  color: white;
+}
+#fa:hover{
+	transform:scale(1.2);
+}
+#go:hover{
+	transform:scale(1.2);
+}
+#in:hover{
+	transform:scale(1.2);
+}
